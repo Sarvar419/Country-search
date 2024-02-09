@@ -80,5 +80,60 @@ body {
     padding-top: 48px;
     padding-bottom: 45px;
 }
+
+/* SEARCH */
+
+.search-icon {
+    color: var(--grey);
+}
+.input-group {
+    width: 100%;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+   
+}
+
+.input-group-text {
+    background-color: var(--white);
+    border: unset;
+   
+}
+.form-control {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    column-gap: 24px;
+    border-left: unset;
+    border: unset;
+}
+.form-control::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--grey);
+    list-style: 20px;
+}
+
+.form-select {
+    padding: unset;
+    padding: 15px 22px 15px 24px;
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: var(--NunitoSans);
+    border: unset;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.form-select > option {
+    border: unset;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--dark);
+}
+
+/* SEARCH */
 /* SITE-MAIN */
 
